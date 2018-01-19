@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "title": "Contact",
+      "text": "IRC\nThe developers and contributors to the Ayatana Indicators project hangout in \nthe #debian-ayatana IRC channel on irc.debian.org provide by OFTC.",
+      "tags": "",
+      "url": "https://AyatanaIndicators.github.io/contact/"
+    },
+    {
+      "title": "Ayatana Indicators website launch",
+      "text": "The website for the Ayatana Indicators project is now live. We'll be using this site to share project\nupdates and reference material.",
+      "tags": "",
+      "url": "https://AyatanaIndicators.github.io/blog/ayatana-indicators-website-launch/"
+    },
+    {
+      "title": "Welcome to Ayatana Indicators",
+      "text": "This is the continuation of Ayatana Indicators, derived from technology \nCanonical developed for the Unity desktop.",
+      "tags": "",
+      "url": "https://AyatanaIndicators.github.io/"
+    }
+  ]
+}
