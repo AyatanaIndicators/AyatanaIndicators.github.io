@@ -2,22 +2,22 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="How to contact the Ayatana Indicators developers">
+<meta name="description" content="The Ayatana Indicators code and how to contribute">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact | Ayatana Indicators</title>
+<title>Code | Ayatana Indicators</title>
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
-<link rel="canonical" href="https://AyatanaIndicators.github.io/contact/">
+<link rel="canonical" href="https://AyatanaIndicators.github.io/code/">
 <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../assets/css/tipuesearch.css">
-<meta name="author" content="Martin Wimpress">
+<meta name="author" content="Ayatana Indicator Developers">
 <meta property="og:site_name" content="Ayatana Indicators">
-<meta property="og:title" content="Contact">
-<meta property="og:url" content="https://AyatanaIndicators.github.io/contact/">
-<meta property="og:description" content="How to contact the Ayatana Indicators developers">
+<meta property="og:title" content="Code">
+<meta property="og:url" content="https://AyatanaIndicators.github.io/code/">
+<meta property="og:description" content="The Ayatana Indicators code and how to contribute">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2018-01-19T11:33:28Z">
+<meta property="article:published_time" content="2018-01-19T01:17:05Z">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -47,11 +47,11 @@
 <li>
 <a href="../blog/">Blog</a>
                 </li>
-<li>
-<a href="../code/">Code</a>
-                </li>
 <li class="active">
-<a href=".">Contact <span class="sr-only">(active)</span></a>
+<a href=".">Code <span class="sr-only">(active)</span></a>
+                </li>
+<li>
+<a href="../contact/">Contact</a>
 
                 
             </li>
@@ -70,15 +70,36 @@
         <div class="row">
             
             
-<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Contact</a></h1>
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Code</a></h1>
 
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<h3>IRC</h3>
-<p>The developers and contributors to the Ayatana Indicators project hangout in 
-the <code>#debian-ayatana</code> IRC channel on <code>irc.debian.org</code> provide by <a href="https://www.oftc.net/">OFTC</a>.</p>
+<p>The Ayatana Indicators upstream project components are hosted
+on GitHub. <strong>Donations of code are warmly welcomed!</strong></p>
+<ul>
+<li><a href="https://github.com/AyatanaIndicators/">Ayatana Indicators GitHub</a></li>
+</ul>
+<h3>Roadmap</h3>
+<ul>
+<li>Making appindicators more generic, so that all Linux distributions can use the framework without heavy patching at packaging time.</li>
+<li>Dropping all hints to the <code>com.canonical.indicator</code> namespace in DBus configurations and replacing such occurrences with <code>org.ayatana.indicator</code> namespace.</li>
+<li>Dropping all hints to "(U|u)(N|n)(I|i)(T|t)(Y|y)" in path names and variables and replacing them by some similar capitalization of the word Ayatana.</li>
+<li>Making the forks co-install just fine with Ubuntu's appindicator packages when installing on Ubuntu.</li>
+<li>Making appindicators and esp. the various indicator applets independent from Ubuntu-only aspects / implementations: upstart, click package format/system, Mir, etc.</li>
+<li>Providing a DBus proxy service that can pipe indicator implementations trying to connect to <code>com.canonical.indicator.application.service</code> through to our non-Ubuntu indicator application service implementation (listening on <code>org.ayatana.indicator.application.service</code>).</li>
+<li>Package all Ayatana Indicators and associated libraries for Debian and land them in stable in time for Debian 10 (Buster).</li>
+</ul>
+<p>For more, slightly out dated, background on the roadmap see Mike's blog about <a href="https://sunweavers.net/blog/node/24">Making appindicators available for non-Ubuntu platforms</a>.</p>
+<h3>Distribution packages</h3>
+<h4>Debian</h4>
+<p>The Debian packages are maintained under the umbrella of the revived Ayatana Packagers team.</p>
+<ul>
+<li><a href="https://qa.debian.org/developer.php?login=pkg-ayatana-devel%40lists.alioth.debian.org">Ayatana Packagers team</a></li>
+</ul>
+<h4>Ubuntu</h4>
+<p>Members of Ubuntu MATE and Xubuntu are contributing to the Debian Ayatana Packagers team (see above).</p>
 </div>
     </div>
     

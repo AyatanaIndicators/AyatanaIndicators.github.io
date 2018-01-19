@@ -43,19 +43,16 @@
         <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
             <ul class="nav navbar-nav">
 <li>
+<a href="../about/">About</a>
+                </li>
+<li>
 <a href="../blog/">Blog</a>
                 </li>
 <li>
-<a href="https://github.com/AyatanaIndicators">Code</a>
+<a href="../code/">Code</a>
                 </li>
 <li>
 <a href="../contact/">Contact</a>
-                </li>
-<li>
-<a href="../archive/">Archive</a>
-                </li>
-<li>
-<a href="../rss.xml">RSS feed</a>
 
                 
             </li>
@@ -80,6 +77,12 @@
 </ul></nav><h1>gallery</h1>
 
 <div id="gallery_container"></div>
+<noscript>
+<ul class="thumbnails"><li>
+<a href="indicators.png" class="thumbnail image-reference" title="Indicators">
+            <img src="indicators.thumbnail.png" alt="Indicators"></a>
+</li></ul>
+</noscript>
 
         </div>
         <!--End of body content-->
@@ -96,7 +99,7 @@
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><script src="../assets/js/flowr.plugin.js"></script><script>
-jsonContent = [];
+jsonContent = [{"size": {"h": 236, "w": 320}, "title": "Indicators", "url": "indicators.png", "url_thumb": "indicators.thumbnail.png"}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 320*.6,
