@@ -135,6 +135,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/blog/", "Blog"),
+        ("https://github.com/AyatanaIndicators", "Code"),
         ("/archive/", "Archive"),
         ("/tags/", "Tags"),
         ("/rss.xml", "RSS feed"),
