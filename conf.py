@@ -136,8 +136,8 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/blog/", "Blog"),
         ("https://github.com/AyatanaIndicators", "Code"),
+        ("/contact/", "Contact"),
         ("/archive/", "Archive"),
-        ("/tags/", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
 }
