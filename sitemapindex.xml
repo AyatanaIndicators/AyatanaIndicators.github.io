@@ -6,8 +6,8 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://AyatanaIndicators.github.io/galleries/rss.xml</loc>
-  <lastmod>2018-01-19T01:00:00Z</lastmod>
+  <loc>https://AyatanaIndicators.github.io/gallery/rss.xml</loc>
+  <lastmod>2018-01-19T01:44:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://AyatanaIndicators.github.io/rss.xml</loc>
@@ -15,6 +15,6 @@
  </sitemap>
  <sitemap>
   <loc>https://AyatanaIndicators.github.io/sitemap.xml</loc>
-  <lastmod>2018-01-19T01:13:00Z</lastmod>
+  <lastmod>2018-01-19T01:44:00Z</lastmod>
  </sitemap>
 </sitemapindex>
