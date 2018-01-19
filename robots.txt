@@ -1,0 +1,4 @@
+Sitemap: https://AyatanaIndicators.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: AyatanaIndicators.github.io
