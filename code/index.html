@@ -83,7 +83,7 @@ on GitHub. <strong>Donations of code are warmly welcomed!</strong></p>
 <li>Dropping all hints to "(U|u)(N|n)(I|i)(T|t)(Y|y)" in path names and variables and replacing them by some similar capitalization of the word Ayatana.</li>
 <li>Making the forks co-install just fine with Ubuntu's appindicator packages when installing on Ubuntu.</li>
 <li>Making appindicators and esp. the various indicator applets independent from Ubuntu-only aspects / implementations: upstart, click package format/system, Mir, etc.</li>
-<li>Providing a DBus proxy service that can pipe indicator implementations trying to connect to <code>com.canonical.indicator.application.service</code> through to our non-Ubuntu indicator application service implementation (listening on <code>org.ayatana.indicator.application.service</code>).</li>
+<li>Assure that applications built against Ubuntu's Application Indicators can also place an Indicator into ayatana-indicator-application and vice versa.</li>
 <li>Package all Ayatana Indicators and associated libraries for Debian and land them in stable in time for Debian 10 (Buster).</li>
 </ul>
 <p>For more, slightly out dated, background on the roadmap see Mike's blog about <a href="https://sunweavers.net/blog/node/24">Making appindicators available for non-Ubuntu platforms</a>.</p>
