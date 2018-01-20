@@ -35,7 +35,7 @@ Ubuntu MATE should help.
 
 ### Why Ayatana Indicators?
 
-Canonical announced to discontinuation of Unity on the desktop and
+Canonical announced the discontinuation of Unity on the desktop and
 mobile devices in April 2017. As Ubuntu shifts its focus to GNOME,
 which is dropping the panel indicator concept entirely, it is fair
 assumption that upstream maintainence of application indicators and
